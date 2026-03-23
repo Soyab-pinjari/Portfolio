@@ -1,8 +1,19 @@
 import React from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 function Skills() {
+
+ useEffect(() => {
+    AOS.init({
+      duration: 2000, // animation speed
+      once: true,     // ek baar hi animate ho
+    });
+  }, []);
+
   return (
-    <div className='mt-30'>
+    <div className='mt-30' data-aos="fade-up">
       <h1 className='mb-20 font-bold text-3xl mb-10 flex justify-center item-center text-[#DC143C]'>Skills</h1>
     <div className='flex justify-center gap-10 mt-10 flex-wrap mb-10  '>
      

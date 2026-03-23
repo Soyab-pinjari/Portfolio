@@ -1,8 +1,16 @@
 import React from 'react'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 function Project() {
+   useEffect(() => {
+      AOS.init({
+        duration: 2000, // animation speed
+        once: true,     // ek baar hi animate ho
+      });
+    }, []);
   return (
-    <div className='bg-[#ffffff] mt-10'>
+    <div className='bg-[#ffffff] mt-10 'data-aos="fade-up">
       <h1 className='flex  mt-20 justify-center item-center  font-bold text-3xl text-[#DC143C]'>Project</h1>
       <div className='grid  grid-cols-3 mx-20 p-5 gap-10 min-h-120 '>
 
@@ -33,7 +41,7 @@ function Project() {
 
           {/* Portfolio web */}
 
-           <div className='flex  flex-col p-2 bg-white shadow-xl mt-10 shadow-gray-300 hover:shadow-gray-400 transform hover:-translate-y-4 transition duration-300  rounded-2xl '>
+           <div className='flex  flex-col p-3 bg-white shadow-xl mt-10 shadow-gray-300 hover:shadow-gray-400 transform hover:-translate-y-4 transition duration-300  rounded-2xl '>
             
             <img src="/public/Portfolio.png" className='border-3   rounded-xl h-50 bg-contain ' alt=""  />
             
@@ -46,7 +54,7 @@ function Project() {
 
            </ul>
            <div className='flex gap-5 mt-7 mb-10 mx-8'>
-            <a href="https://github.com/Soyab-pinjari">
+            <a href="https://github.com/Soyab-pinjari/Portfolio">
 
            <button className='border-2 px-4 py-2 rounded-lg bg-black text-white hover:bg-[#DC143C]  text-lg cursor-pointer font-semibold'>Code</button>
             </a>

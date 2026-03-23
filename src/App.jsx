@@ -10,6 +10,9 @@ import { Route, Router, Routes } from 'react-router-dom'
 import Mainpage from './Mainpage'
 import Project from './Project'
 import Contact from './Contact'
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function App() {
 

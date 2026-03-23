@@ -1,8 +1,16 @@
 import React from 'react'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 function Contact() {
+  useEffect(() => {
+        AOS.init({
+          duration: 2000, // animation speed
+          once: true,     // ek baar hi animate ho
+        });
+      }, []);
   return (
-    <div className='mt-10'>
+    <div className='mt-10' data-aos="fade-up">
               
       <h1 className='flex mt-20 justify-center item-center font-bold text-3xl text-[#DC143C] '>Contact </h1>
 <div className="flex flex-col mt-15 items-center mb-10 max-h-screen  px-5">
@@ -36,7 +44,7 @@ function Contact() {
             </div>
 
             {/* Contact Details */}
-            <div className='flex flex-col gap-3 mb-10'>
+            <div className='flex flex-col gap-3 mb-10 '>
                
 
                 <input type="text" id="name" placeholder='Your Name' className='border-2 rounded-lg  p-2 '  />

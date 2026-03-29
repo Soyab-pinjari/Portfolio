@@ -1,16 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 function Contact() {
+const [formdata, setFormData ]=useState({
+  name:"",
+  email:"",
+  message:""
+});
+
+
+const handleChange = (e)=>{
+const {name,value}=e.target;
+  setFormData((prev)=>({
+  ...prev,
+  [name]:value
+
+}))
+}
+ 
+const handleSubmit=(e)=>{
+  e.preventDefault();
+  console.log(formdata);
+}
+
+
   useEffect(() => {
         AOS.init({
-          duration: 2000, // animation speed
-          once: true,     // ek baar hi animate ho
+          duration: 2000, 
+          once: true,     
         });
       }, []);
+
+
   return (
-    <div className='mt-10' data-aos="fade-up">
+    <div className='mt-10' data-aos="fade-up" >
               
       <h1 className='flex mt-20 justify-center item-center font-bold text-3xl text-[#DC143C] '>Contact </h1>
 <div className="flex flex-col mt-15 items-center mb-10 max-h-screen  px-5">
@@ -46,11 +70,10 @@ function Contact() {
             {/* Contact Details */}
             <div className='flex flex-col gap-3 mb-10 '>
                
-
-                <input type="text" id="name" placeholder='Your Name' className='border-2 rounded-lg  p-2 '  />
-                <input type="email" id="email" placeholder='Your Email' className='border-2 rounded-lg  p-2'  />
-                <textarea id="message" rows="7" cols="50" placeholder='Your Message' className='border-2 rounded-lg   '  />
-                <button className='w-30 cursor-pointer transform hover:-translate-y-4  inline-block mt-10 p-2 border-2 hover:text-white hover:bg-[#DC143C] bg-black text-white rounded-lg'>Submit</button>
+                <input type="text"  name='name' value={formdata.name} onChange={handleChange}  placeholder='Your Name' className='border-2 rounded-lg  p-2 '  />
+                <input type="email" name='email' value={formdata.email} onChange={handleChange}   placeholder='Your Email' className='border-2 rounded-lg  p-2'  />
+                <textarea id="message" name='message' value={formdata.message} onChange={handleChange}  rows="7" cols="50" placeholder='Your Message' className='border-2 rounded-lg   '  />
+                <button onClick={handleSubmit} className='w-30 cursor-pointer transform hover:-translate-y-4  inline-block mt-10 p-2 border-2 hover:text-white hover:bg-[#DC143C] bg-black text-white rounded-lg'>Submit</button>
             </div>
      </div>
     </div>

@@ -5,6 +5,7 @@ import About from './About'
 import Project from './Project'
 import Contact from './Contact'
 
+
 function Mainpage() {
   return (
     <div>
@@ -13,6 +14,7 @@ function Mainpage() {
       <About/>
       <Project/>
       <Contact/>
+    
     </div>
   )
 }

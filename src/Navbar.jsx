@@ -29,10 +29,11 @@ function Navbar() {
   _bla 
   <i className="bi bi-github text-2xl text-white inline-block hover:-translate-y-2 transition duration-300"></i>
 </a>
-              <a 
-  href="YOUR_LINKEDIN_URL" 
+                    <a 
+  href="https://www.linkedin.com/in/soyeb-pinjari-hellp2/?skipRedirect=true" 
   target="_blank" 
   rel="noopener noreferrer"
+
   className="inline-block text-white text-2xl hover:-translate-y-2 transition duration-300"
 >
   <i className="bi bi-linkedin"></i>

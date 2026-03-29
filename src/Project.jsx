@@ -58,7 +58,10 @@ function Project() {
 
            <button className='border-2 px-4 py-2 rounded-lg bg-black text-white hover:bg-[#DC143C]  text-lg cursor-pointer font-semibold'>Code</button>
             </a>
+            <a href="https://portfolio-indol-sigma-87.vercel.app/">
+
            <button className='border-2 px-4 py-2 rounded-lg bg-black text-white hover:bg-[#DC143C]  text-lg cursor-pointer font-semibold'>Preview</button>
+            </a>
            </div>
         </div>
 

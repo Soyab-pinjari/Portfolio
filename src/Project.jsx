@@ -17,7 +17,7 @@ function Project() {
         {/* Coofe web */}
         <div className='flex p-3  flex-col bg-white mt-10 min-h-10 shadow-[0_0_15px_rgba(0,0,0,0.1)]  shadow-gray-300 hover:shadow-gray-400 transform hover:-translate-y-4 transition duration-300  rounded-2xl '>
             
-            <img src="/public/CoofeeImg.png" className='border-3   rounded-xl h-50 bg-contain  ' alt=""  />
+            <img src="/CoofeeImg.png" className='border-3   rounded-xl h-50 bg-contain  ' alt=""  />
             
             <h1 className='font-bold text-2xl  mx-10 mt-5 text-[#DC143C]'>Coffee website</h1>
 
@@ -43,7 +43,7 @@ function Project() {
 
            <div className='flex  flex-col p-3 bg-white shadow-xl mt-10 shadow-gray-300 hover:shadow-gray-400 transform hover:-translate-y-4 transition duration-300  rounded-2xl '>
             
-            <img src="/public/Portfolio.png" className='border-3   rounded-xl h-50 bg-contain ' alt=""  />
+            <img src="/Portfolio.png" className='border-3   rounded-xl h-50 bg-contain ' alt=""  />
             
             <h1 className='font-bold text-2xl mx-10 mt-5 text-[#DC143C]'>Portfolio Website</h1>
 
@@ -68,7 +68,7 @@ function Project() {
               {/* Elife web */}
            <div className='flex p-3 flex-col bg-white shadow-xl mt-10 shadow-gray-300 hover:shadow-gray-400 transform hover:-translate-y-4 transition duration-300  rounded-2xl '>
             
-            <img src="/public/Elife.png" className=' border-3  rounded-xl h-50 bg-contain ' alt=""  />
+            <img src="/Elife.png" className=' border-3  rounded-xl h-50 bg-contain ' alt=""  />
             
             <h1 className='font-bold text-2xl mx-10 mt-5 text-[#DC143C]'>E-commerse Website</h1>
 

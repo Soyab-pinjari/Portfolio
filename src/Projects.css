@@ -1,0 +1,37 @@
+.Main-title {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #dc143c;
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: white;
+  margin-top: 40px;
+  min-height: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-16px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+.project-btn {
+  border: 2px solid black;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.project-btn:hover {
+  background-color: #dc143c;
+}

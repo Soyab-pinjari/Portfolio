@@ -21,7 +21,7 @@ function Navbar() {
         </div>
           <div className="mx-10">
                 <a 
-  href="https://github.com/Soyab-pinjari/Projects" 
+  href="https://github.com/Soyab-pinjari/" 
   className="mx-10" 
   target="_blank" 
   rel="noopener noreferrer"

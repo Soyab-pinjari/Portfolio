@@ -22,17 +22,17 @@ function Project() {
     {
       title: "Portfolio Website",
       image: "/Portfolio.png",
-      tech: ["HTML", "CSS", "Tailwind"],
+      tech: ["Html","CSS","Tailwind","React"],
       code: "https://github.com/Soyab-pinjari/Portfolio",
       preview: "https://portfolio-indol-sigma-87.vercel.app/",
     },
 
     {
-      title: "E-commerce Website",
-      image: "/Elife.png",
-      tech: ["HTML", "CSS", "Bootstrap"],
-      code: "#",
-      preview: "#",
+      title: "Todo Website",
+      image: "/Todo.png",
+      tech: ["React","TailwindCSS","Node", "MongoDB"],
+      code: "https://github.com/Soyab-pinjari/TodoProject",
+      preview: "https://todo-project-psi-five.vercel.app/",
     },
   ]
 

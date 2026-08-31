@@ -1,26 +1,73 @@
 .Main-title {
   display: flex;
-  margin-top: 20px;
   justify-content: center;
+  margin-top: 20px;
   font-weight: bold;
   font-size: 30px;
   color: #dc143c;
 }
+
 .project-card {
   display: flex;
   flex-direction: column;
   padding: 12px;
   background-color: white;
-  margin-top: 40px;
-  min-height: 40px;
+  margin-top: 20px;
+  min-height: 100%;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
+
 .project-card:hover {
-  transform: translateY(-16px);
+  transform: translateY(-10px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+/* Project Title */
+.project-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px 20px 0;
+  color: #dc143c;
+}
+
+/* Technology Tags */
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 25px 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-item {
+  padding: 7px 12px;
+  border-radius: 20px;
+  border: 2px solid #dc143c;
+  box-shadow: 0 2px 6px rgba(220, 20, 60, 0.4);
+  font-size: 14px;
+}
+
+/* Buttons */
+.project-actions {
+  display: flex;
+  gap: 15px;
+  margin: 25px 20px 15px;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
 .project-btn {
   border: 2px solid black;
   padding: 8px 16px;
@@ -32,6 +79,50 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .project-btn:hover {
   background-color: #dc143c;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .Main-title {
+    font-size: 26px;
+  }
+
+  .project-card {
+    margin-top: 10px;
+  }
+
+  .project-image {
+    height: 180px;
+  }
+
+  .project-title {
+    font-size: 21px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .tech-list {
+    margin-left: 12px;
+    margin-right: 12px;
+    gap: 8px;
+  }
+
+  .tech-item {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .project-actions {
+    margin-left: 12px;
+    margin-right: 12px;
+    gap: 10px;
+  }
+
+  .project-btn {
+    font-size: 16px;
+    padding: 7px 14px;
+  }
 }

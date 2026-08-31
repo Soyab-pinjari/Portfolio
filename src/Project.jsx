@@ -31,7 +31,7 @@ function Project() {
     {
       title: "Todo Website",
       image: "/Todo.png",
-      tech: ["React", "TailwindCSS", "Node", "MongoDB"],
+      tech: ["React", "TailwindCSS", "NodeJS","ExpressJS", "MongoDB"],
       code: "https://github.com/Soyab-pinjari/TodoProject",
       preview: "https://todo-project-psi-five.vercel.app/",
     },

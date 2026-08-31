@@ -13,18 +13,19 @@ function Project() {
   }, []);
   const Projects = [
     {
-      title: "Coffee Website",
-      image: "/CoofeeImg.png",
-      tech: ["HTML", "CSS", "Bootstrap"],
-      code: "https://github.com/Soyab-pinjari/coffeeweb",
-      preview: "https://coffeeweb-eosin.vercel.app/",
+      title: "Blog Website",
+      image: "/Screenshot 2026-08-31 091753.png",
+      tech: ["ReactJS", "Tailwind CSS", "NodeJS","ExpressJS","MongoDB"],
+      code: "https://github.com/Soyab-pinjari/Blog-web",
+      preview: "https://blog-web-eta-nine.vercel.app/",
     },
     {
       title: "Portfolio Website",
       image: "/Portfolio.png",
       tech: ["Html","CSS","Tailwind","React"],
       code: "https://github.com/Soyab-pinjari/Portfolio",
-      preview: "https://portfolio-indol-sigma-87.vercel.app/",
+      preview: "https://portfolio-eight-coral-34.vercel.app/",
+      
     },
 
     {
@@ -32,7 +33,7 @@ function Project() {
       image: "/Todo.png",
       tech: ["React","TailwindCSS","Node", "MongoDB"],
       code: "https://github.com/Soyab-pinjari/TodoProject",
-      preview: "https://todo-project-psi-five.vercel.app/",
+      preview: "todo-project-psi-five.vercel.app",
     },
   ]
 

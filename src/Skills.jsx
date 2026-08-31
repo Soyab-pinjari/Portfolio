@@ -28,12 +28,12 @@ function Skills() {
   <ul className="space-y-3">
 
     <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
-      <span>HTML</span>
+      <span>HTML5</span>
       <i className="fa-brands fa-html5 text-orange-500 text-xl"></i>
     </li>
 
     <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
-      <span>CSS</span>
+      <span>CSS3</span>
       <i className="fa-brands fa-css3-alt text-blue-500 text-xl"></i>
     </li>
 
@@ -43,8 +43,12 @@ function Skills() {
     </li>
 
     <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
-      <span>React</span>
+      <span>ReactJS</span>
       <i className="fa-brands fa-react text-cyan-400 text-xl"></i>
+    </li>
+    <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
+      <span>Tailwind CSS</span>
+      <i className="fa-solid fa-wind text-cyan-500 text-xl"></i>
     </li>
 
   </ul>
@@ -75,9 +79,12 @@ function Skills() {
       <span>MongoDB</span>
       <i className="fa-solid fa-database text-green-500 text-xl"></i>
     </li>
-
     <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
-      <span>REST API</span>
+      <span>Mongoose</span>
+      <i className="fa-solid fa-database text-green-500 text-xl"></i>
+    </li>
+    <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
+      <span>REST APIs</span>
       <i className="fa-solid fa-network-wired text-blue-500 text-xl"></i>
     </li>
 
@@ -88,23 +95,31 @@ function Skills() {
 <div className="w-[320px] p-5 rounded-2xl ring-2 ring-purple-500 transform hover:-translate-y-4 hover:shadow-lg hover:shadow-purple-500 transition duration-500">
 
   <h1 className="font-bold text-2xl flex items-center gap-2 mb-4">
-    Frameworks
+   Tools & Platforms
     <i className="fa-solid fa-layer-group text-[#2563eb]"></i>
   </h1>
 
   <ul className="space-y-3">
 
-    <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
-      <span>Bootstrap</span>
-      <i className="fa-brands fa-bootstrap text-purple-600 text-xl"></i>
-    </li>
+  {/* VS Code */}
+  <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
+    <span>VS Code</span>
+    <i className="fa-solid fa-code text-blue-600 text-xl"></i>
+  </li>
 
-    <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
-      <span>Tailwind CSS</span>
-      <i className="fa-solid fa-wind text-cyan-500 text-xl"></i>
-    </li>
+  {/* Git & GitHub */}
+  <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
+    <span>Git & GitHub</span>
+    <i className="fa-brands fa-github text-gray-800 text-xl"></i>
+  </li>
 
-  </ul>
+  {/* Postman */}
+  <li className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-100 transition">
+    <span>Postman</span>
+    <i className="fa-solid fa-paper-plane text-orange-500 text-xl"></i>
+  </li>
+
+</ul>
 
 </div>
 

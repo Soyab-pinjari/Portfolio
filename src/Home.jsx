@@ -30,12 +30,12 @@ function Home() {
 </h1>
 
           <h2 className='font-bold text-2xl mt-2 text-[#DC143C]'>
-            Web Developer
+            Web Developer (MERN)
           </h2>
 
           <div className='w-[480px] mt-8'>
             <p  data-aos="fade-up" >
-              Motivated and detail-oriented Web Developer with a strong foundation in front-end web technologies.
+              Motivated and detail-oriented FUll stack Developer with a strong foundation in Front-end and Back-end web technologies.
               Passionate about building responsive, user-friendly web applications and continuously
               improving technical skills through hands-on practice.
             </p>

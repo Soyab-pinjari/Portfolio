@@ -62,7 +62,7 @@ function Home() {
           {/* Name */}
           <h1 className="
             font-bold
-            text-1xl
+            text-2xl
             sm:text-2xl
             md:text-2xl
             lg:text-4xl

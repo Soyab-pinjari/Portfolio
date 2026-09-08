@@ -64,7 +64,7 @@ function Home() {
             font-bold
             text-1xl
             sm:text-2xl
-            md:text-1xl
+            md:text-2xl
             lg:text-4xl
             leading-tight
             text-black

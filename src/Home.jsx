@@ -54,7 +54,7 @@ function Home() {
             text-gray-700
             text-base
             sm:text-lg
-            mb-1
+            mb-3
           ">
             👋 Hello, I'm
           </p>
